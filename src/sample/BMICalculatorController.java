@@ -8,7 +8,7 @@ import javafx.scene.image.ImageView;
 
 import java.text.DecimalFormat;
 
-public class Controller {
+public class BMICalculatorController {
 
     @FXML
     private TextField weight;
@@ -29,7 +29,6 @@ public class Controller {
     void calculateButtonPressed(ActionEvent event) {
         try {
             Image bmi_img = new Image("images/bmi.png");
-
             Image normal_img = new Image("images/normal.gif");
             Image overweight_img = new Image("images/overweight.gif");
             Image underweight_img = new Image("images/underweight.jpg");
